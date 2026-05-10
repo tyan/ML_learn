@@ -19,3 +19,7 @@
               precision    recall  f1-score   support
 
 Лучшие параметры: {'learning_rate': 0.3, 'max_depth': 10, 'n_estimators': 50}
+
+10.05
+CatBoost с умолчательными гиперпараметрами (100 итераций) + векторизация sberbank-ai/sbert_large_nlu_ru
+Точность: 0.7894736842105263
