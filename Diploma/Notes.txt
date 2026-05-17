@@ -84,3 +84,22 @@ XGBoost на параметрах: {'subsample': 0.7, 'reg_lambda': 0.01, 'reg_a
 CatBoost
 Лучшие параметры:  {'random_strength': 0.5, 'learning_rate': 0.1, 'l2_leaf_reg': 2, 'iterations': 500, 'depth': 6, 'bagging_temperature': 1.2}
 Точность: 0.8421052631578947
+
+16.05
+
+Добавлена обработка ключевых слов.
+
+LogReg
+
+Лучшие параметры:  {'solver': 'saga', 'penalty': 'l1', 'max_iter': 500, 'C': 1}
+Точность: 0.9657894736842105
+
+XGB
+
+Лучшие параметры:  {'subsample': 0.6, 'reg_lambda': 5, 'reg_alpha': 0.01, 'n_estimators': 150, 'max_depth': 6, 'learning_rate': 0.05}
+Точность: 0.968421052631579
+
+CatBoost
+
+Лучшие параметры:  {'random_strength': 0.5, 'learning_rate': 0.5, 'l2_leaf_reg': 2, 'iterations': 300, 'depth': 6, 'bagging_temperature': 1.2}
+Точность: 0.968421052631579
