@@ -103,3 +103,20 @@ CatBoost
 
 Лучшие параметры:  {'random_strength': 0.5, 'learning_rate': 0.5, 'l2_leaf_reg': 2, 'iterations': 300, 'depth': 6, 'bagging_temperature': 1.2}
 Точность: 0.968421052631579
+
+
+LightGBM
+
+sber vectors
+
+Лучшие параметры:  {'subsample': 0.9, 'reg_lambda': 5, 'reg_alpha': 0, 'num_leaves': 30, 'n_estimators': 500, 'max_depth': 3, 'learning_rate': 0.3, 'boosting_type': 'dart'}
+Точность: 0.8184210526315789
+              precision    recall  f1-score   support
+              
+Word2Vec 300
+Лучшие параметры:  {'subsample': 0.5, 'reg_lambda': 0, 'reg_alpha': 0, 'num_leaves': 40, 'n_estimators': 500, 'max_depth': 5, 'learning_rate': 0.3, 'boosting_type': 'dart'}
+Точность: 0.8631578947368421
+
+
+Лучшие параметры:  {'subsample': 0.8, 'reg_lambda': 5, 'reg_alpha': 0, 'num_leaves': 10, 'n_estimators': 500, 'max_depth': 6, 'learning_rate': 0.3, 'boosting_type': 'gbdt'}
+Точность: 0.968421052631579
